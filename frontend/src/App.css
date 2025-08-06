@@ -42,3 +42,6 @@
 .read-the-docs {
   color: #888;
 }
+body{
+  background-attachment: fixed;
+}
