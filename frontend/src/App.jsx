@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-     <h1 className='bg-amber-400'>VaagaiKart - app now demo is working</h1>
+     <h1 className='bg-purple'>VaagaiKart - app now demo is working</h1>
     </>
   )
 }
