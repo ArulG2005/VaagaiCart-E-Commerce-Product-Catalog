@@ -8,7 +8,7 @@
 		<version>3.5.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.vaagai</groupId>
+	<groupId>com.vaagaicart</groupId>
 	<artifactId>backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>backend</name>
@@ -32,10 +32,6 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
@@ -50,30 +46,65 @@
 			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
-<dependency>
-    <groupId>javax.xml.bind</groupId>
-    <artifactId>jaxb-api</artifactId>
-    <version>2.3.1</version>
-</dependency>
-		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa -->
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-data-jpa</artifactId>
-    <version>3.4.3</version>
-</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
-		<!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt -->
-<dependency>
+		<dependency>
     <groupId>io.jsonwebtoken</groupId>
     <artifactId>jjwt</artifactId>
     <version>0.9.1</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-mail -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-mail</artifactId>
+    <version>3.4.4</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-security -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-security</artifactId>
+    <version>3.4.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.stripe/stripe-java -->
+<dependency>
+    <groupId>com.stripe</groupId>
+    <artifactId>stripe-java</artifactId>
+    <version>29.4.0</version>
+</dependency>
+		<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-data-jpa</artifactId>
+    <version>3.4.3</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
+<dependency>
+    <groupId>javax.xml.bind</groupId>
+    <artifactId>jaxb-api</artifactId>
+    <version>2.3.1</version>
+</dependency>
+
+
+<dependency>
+    <groupId>org.glassfish.jaxb</groupId>
+    <artifactId>jaxb-runtime</artifactId>
+    <version>4.0.0</version>
+</dependency>
+<dependency>
+    <groupId>jakarta.xml.bind</groupId>
+    <artifactId>jakarta.xml.bind-api</artifactId>
+    <version>4.0.0</version>
+</dependency>
+
+<dependency>
+    <groupId>org.glassfish.jaxb</groupId>
+    <artifactId>jaxb-runtime</artifactId>
+    <version>4.0.0</version>
+</dependency>
+
+
 	</dependencies>
 
 	<build>
